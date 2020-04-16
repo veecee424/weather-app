@@ -29,3 +29,5 @@ and setting express up to use it. ie app.set('views', path.join(__dirname, 'path
 
 **The -e flag is used to set up nodemon to refresh the server after changes have been effected on other file extensions (eg html, ejs, hbs).. 
 It is used thus 'nodemon app.js -e ejs,html,hbs'
+
+**devDependencies are dependencies needed only on the local machine while developing and testing an app locally

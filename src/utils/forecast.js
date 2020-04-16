@@ -9,7 +9,7 @@ const getWeatherForecast = async (latitude, longitude) => {
             const responseData = await axios.get(url)
             if (responseData) {
                 let currentData = responseData.data.currently;
-                return `The weather is ${currentData.summary}, and temperature is currently ${currentData.temperature} degrees. There is ${currentData.precipProbability}% chance it'd rain`
+                return `The weather is ${currentData.summary}, and temperature is currently ${currentData.temperature}°C. There is ${currentData.precipProbability}% chance it'd rain`
             }
          
     }
