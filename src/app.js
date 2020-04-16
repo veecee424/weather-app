@@ -63,10 +63,10 @@ app.get('/about', (req, res) => {
     })
 })
 
-
 app.get('*', (req, res) => {
     res.render('404')
 })
+
 
 
 const port = process.env.PORT || 3000;
