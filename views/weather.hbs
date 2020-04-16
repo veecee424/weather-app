@@ -1,0 +1,11 @@
+{{>header}}
+
+    <form class="form" method="POST" action="/weather">
+        <input id="location" name="address" placeholder="enter address">
+        <button type="submit" id="search">Search</button>
+    </form>
+    <span class="spanForecast">Location: {{location}}</span>
+    <p class="forecast">Forecast: {{weatherForecast}}</p>
+    
+
+{{>footer}}
