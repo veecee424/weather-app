@@ -41,7 +41,7 @@ app.post('/weather', async (req, res) => {
             }
             
         let weatherForecast = await getWeatherForecast(latitude, longitude)
-        return res.render('weather', {weatherForecast, title: 'Forecast weather', location})
+        return res.render('weather', {weatherForecast, title: 'Forecast weather', location, forecastTag: 'Forecast: ', locationTag: 'Location: '})
     }
     catch (error) {
         console.log(error)

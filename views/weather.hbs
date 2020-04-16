@@ -4,8 +4,8 @@
         <input id="location" name="address" placeholder="enter address">
         <button type="submit" id="search">Search</button>
     </form>
-    <span class="spanForecast">Location: {{location}}</span>
-    <p class="forecast">Forecast: {{weatherForecast}}</p>
+    <span class="spanForecast">{{locationTag}}{{location}}</span>
+    <p class="forecast">{{forecastTag}}{{weatherForecast}}</p>
     
 
 {{>footer}}
