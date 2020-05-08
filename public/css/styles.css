@@ -37,3 +37,14 @@ footer {
  margin: 0 auto;
  text-align: justify;
 }
+
+#about, #help, #home {
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
