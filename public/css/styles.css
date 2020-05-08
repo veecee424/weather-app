@@ -23,6 +23,7 @@ footer {
 .footer {
    margin-top: auto;
    background-color: black;
+   text-align: center;
 }
 
 .form {
@@ -56,9 +57,17 @@ a {
     }
 }
 
+@media only screen and (max-width: 450px) {
+    #about, #help, #home {
+        margin: 0 auto;
+        width: 250px;
+    }
+}
+
 @media only screen and (min-width: 650px) {
     #about, #help, #home {
         margin: 0 auto;
         width: 500px;
     }
 }
+
